@@ -1,0 +1,33 @@
+{
+  "name": "nodamp",
+  "version": "0.0.0",
+  "description": "Nod(e-express-rest-)amp(lifier)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly",
+    "coveralls": "npm run cover && istanbul report && istanbul-coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m0nzderr/nodamp.git"
+  },
+  "keywords": [
+    "express",
+    "rest"
+  ],
+  "author": "Illya Kokshenev <sou@illya.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m0nzderr/nodamp/issues"
+  },
+  "homepage": "https://github.com/m0nzderr/nodamp#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.1",
+    "istanbul-coveralls": "^1.0.3",
+    "mocha": "^2.3.4",
+    "should": "^8.0.1"
+  }
+}
